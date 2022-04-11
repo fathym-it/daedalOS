@@ -26,6 +26,7 @@ const nextConfig = {
   optimizeFonts: false,
   reactStrictMode: true,
   swcMinify: !isProduction,
+  basePath: "/deadalos",
 };
 
 module.exports = withBundleAnalyzer(nextConfig);
